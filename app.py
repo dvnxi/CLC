@@ -12,12 +12,15 @@ df_ref = load_reference_ranges()
 df_user = df_ref.copy()
 
 # Sidebar and main page settings
-st.set_page_config(page_title="Clinical Lab Companion", layout="wide")
-st.title("Clinical Lab Companion")
-st.subheader("AI-powered study companion for MedTech students in the Philippines")
-
 st.sidebar.title("Navigation")
 options = st.sidebar.radio("Choose a section:", ["Home", "Protocols", "Reference Ranges", "Lab Results Interpretation", "About"])
+
+if options == "Home":
+    st.header("Welcome to Clinical Lab Companion")
+    st.write("This app is designed to assist MedTech students in the Philippines with their studies, providing access to protocols, reference ranges, and lab results interpretation.")
+    st.write("Use the sidebar to navigate through the app.")
+    st.write("Developed by Devon Daquioag, a Computer Engineering student at Centro Escolar University, Manila, with the"
+    " support from his friends and colleagues in the MedTech program.")
 
 if options == "Reference Ranges":
     st.header("Reference Ranges")
@@ -28,7 +31,7 @@ if options == "Reference Ranges":
     if test == "Complete Blood Count (CBC)":
         st.write("**Complete Blood Count (CBC) Reference Ranges**")
 
-        # Let user edit the table directly (no 'Your Value' column)
+        # Let user edit the table directly
         edited_df = st.data_editor(
             df_user,
             num_rows="dynamic",

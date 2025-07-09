@@ -1,0 +1,20 @@
+streamlit run "c:\Users\Jairo\Documents\CLINICAL LAB COMPANION.AI\app.py"
+
+https://clcompanion.streamlit.app/
+
+echo "# Clinical-Lab-Companion" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/dvnxi/Clinical-Lab-Companion.git
+git push -u origin main
+
+git remote add origin https://github.com/dvnxi/Clinical-Lab-Companion.git
+git branch -M main
+git push -u origin main
+
+
+References:
+https://www.ncbi.nlm.nih.gov/books/NBK2263/table/ch1.T1/
+https://my.clevelandclinic.org/health/diagnostics/23572-mpv-blood-test
