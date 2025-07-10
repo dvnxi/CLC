@@ -1,0 +1,9 @@
+Test,Lower Range (M),Upper Range (M),Lower Range (F),Upper Range (F),Units
+ALT (Alanine aminotransferase),7,55,7,45,U/L
+AST (Aspartate aminotransferase),8,48,8,43,U/L
+ALP (Alkaline phosphatase),40,129,35,104,U/L
+GGT (Gamma-glutamyl transferase),8,61,5,36,U/L
+Total Bilirubin,0.1,1.2,0.1,1.2,mg/dL
+Direct Bilirubin,0.0,0.3,0.0,0.3,mg/dL
+Albumin,3.5,5.0,3.5,5.0,g/dL
+Total Protein,6.3,8.2,6.3,8.2,g/dL

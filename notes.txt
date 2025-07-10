@@ -18,3 +18,9 @@ git push -u origin main
 References:
 https://www.ncbi.nlm.nih.gov/books/NBK2263/table/ch1.T1/
 https://my.clevelandclinic.org/health/diagnostics/23572-mpv-blood-test
+
+# References:
+# 1. https://www.mayocliniclabs.com/test-catalog/Clinical+and+Interpretive/8363
+# 2. https://www.labcorp.com/resource/lab-tests/alanine-aminotransferase-alt
+# 3. https://www.healthline.com/health/liver-function-tests
+# 4. https://www.mountsinai.org/health-library/tests/liver-function-tests
